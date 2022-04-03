@@ -1,0 +1,40 @@
+@mixin mainTitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.335em;
+    text-align: center;
+}
+
+@mixin sectionTitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.18em;
+}
+
+@mixin smallText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: auto;
+}
+
+@mixin bigText {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 58px;
+}
+
+@mixin buttonText {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.18em;
+}
